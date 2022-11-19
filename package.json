@@ -17,6 +17,8 @@
     "@trpc/next": "10.0.0-rc.4",
     "@trpc/react-query": "10.0.0-rc.4",
     "@trpc/server": "10.0.0-rc.4",
+    "class-variance-authority": "^0.3.0",
+    "cva": "npm:class-variance-authority@^0.3.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
