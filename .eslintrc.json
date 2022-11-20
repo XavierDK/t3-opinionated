@@ -15,5 +15,11 @@
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "error"
   },
-  "ignorePatterns": ["lint-staged.config.js", ".storybook/*"]
+  "ignorePatterns": [
+    "jest.config.js",
+    "jest.setup.js",
+    "lint-staged.config.js",
+    ".storybook/*",
+    "__mocks__/*"
+  ]
 }
