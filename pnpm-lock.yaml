@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/core': ^7.11.5
   '@next-auth/prisma-adapter': ^1.0.4
+  '@playwright/test': ^1.28.0
   '@prisma/client': ^4.5.0
   '@storybook/addon-essentials': ^7.0.0-alpha.51
   '@storybook/addon-interactions': ^7.0.0-alpha.51
@@ -81,6 +82,7 @@ dependencies:
 
 devDependencies:
   '@babel/core': 7.20.2
+  '@playwright/test': 1.28.0
   '@storybook/addon-essentials': 7.0.0-alpha.51_wf3vkn74tbeiauqgwtkjdgsucu
   '@storybook/addon-interactions': 7.0.0-alpha.51_uaynfpijkwfvob6bagkw2ikc3m
   '@storybook/addon-links': 7.0.0-alpha.51_biqbaboplfbrettd7655fr4n2y
@@ -2094,6 +2096,15 @@ packages:
   /@panva/hkdf/1.0.2:
     resolution: {integrity: sha512-MSAs9t3Go7GUkMhpKC44T58DJ5KGk2vBo+h1cqQeqlMfdGkxaVB78ZWpv9gYi/g2fa4sopag9gJsNvS8XGgWJA==}
     dev: false
+
+  /@playwright/test/1.28.0:
+    resolution: {integrity: sha512-vrHs5DFTPwYox5SGKq/7TDn/S4q6RA1zArd7uhO6EyP9hj3XgZBBM12ktMbnDQNxh/fL1IUKsTNLxihmsU38lQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 18.11.9
+      playwright-core: 1.28.0
+    dev: true
 
   /@pmmmwh/react-refresh-webpack-plugin/0.5.9_ohj47mxwagpoxvu7nhhwxzphqm:
     resolution: {integrity: sha512-7QV4cqUwhkDIHpMAZ9mestSJ2DMIotVTbOUwbiudhjCRTAWWKIaBecELiEM2LT3AHFeOAaHIcFu4dbXjX+9GBA==}
@@ -10389,6 +10400,12 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       find-up: 5.0.0
+    dev: true
+
+  /playwright-core/1.28.0:
+    resolution: {integrity: sha512-nJLknd28kPBiCNTbqpu6Wmkrh63OEqJSFw9xOfL9qxfNwody7h6/L3O2dZoWQ6Oxcm0VOHjWmGiCUGkc0X3VZA==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /pnp-webpack-plugin/1.7.0_typescript@4.9.3:
