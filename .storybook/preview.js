@@ -19,4 +19,13 @@ export const parameters = {
   previewTabs: {
     'storybook/docs/panel': { index: -1 },
   },
+  backgrounds: {
+    default: 'dark',
+    values: [
+      {
+        name: 'dark',
+        value: 'rgb(17 24 39)',
+      },
+    ],
+  },
 }
